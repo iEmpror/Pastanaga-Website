@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: "/Pastanaga-Website/", // 👈 ADD THIS LINE
+    base: "/Pastanaga-Website/", 
 
     plugins: [react(), tailwindcss()],
 
